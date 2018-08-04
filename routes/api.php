@@ -28,8 +28,7 @@ Route::group([
     });
 });
 
-Route::group([    
-    'namespace' => 'Auth',    
+Route::group([        
     'middleware' => 'api',    
     'prefix' => 'password'
 ], function () {    
